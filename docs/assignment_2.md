@@ -1,6 +1,6 @@
 # Assignment 2
 ## Download 
-[Download](<Add download link here>)
+[Download](/releases/latest/download/eklavya/Assignment_2.zip)
 ## Description
 Given data contains the values obtained by a line sensor.
 4 space separated values on each line gives the values of sensor at any instant
