@@ -1,4 +1,4 @@
-# Assignment 2
+# Assignment 1
 ## Download 
 [Download](<Add download link here>)
 ## Description
@@ -7,16 +7,10 @@ Given data contains the values obtained by a line sensor.
 
 You have been given a scenario of a white line on black surface
 there are regions on this line called nodes
-there are turns at 90 degrees that bot has to take
 
-**A turn looks like this**
-
+**A node looks like this**
 ```
-                       |  |  
-                       |  |
-         ______________|  |
-right-->|   ______________|  <-- left turn
- turn   |  |
+        |  |
         |  |
     ____|  |____
     ____|  |____ <-- node here
@@ -27,13 +21,8 @@ right-->|   ______________|  <-- left turn
         |  |             |
         |  |             |
         |  | bot travels in this direction
-        |  |
-        |  |
-        |  |
-
 ```
 **Line sensor placement**
-
 ```
     |  |
     |  |
@@ -45,36 +34,22 @@ ____|  |____
 ```
 * 0, 1, 2, 3 are the location of the 4 line sensors
 
-* The direction in which bot faces at start is NORTH
-* We encode the direction as    
-
-```
- ___________
-|       |   |
-| NORTH | 0 |
-| EAST  | 1 |
-| SOUTH | 2 |
-| WEST  | 3 |
-|_______|___|
-```
-
 ## Task
-Your task is to count the number of nodes, number of turns
-and the direction bot faces at the end
-
-The bot starts "On the line", "passes straight through nodes",
-"turns left or right at turns" and stops when it reaches the "end of line"
+Your task is to count the number of nodes from the values given in data
+            
+The bot starts "On the line", "passes straight through nodes"
+and stops when it reaches the "end of line"
 
 This is a practically obtained data set
 so discard any impractical values which may have been recorded
-due to "sensor, motion and sharp turn errors"
+due to "sensor or motion errors" 
 
 ## Input
 * `data.txt` file contains the values obtained by a line sensor. 4 space separated values on each line gives the values of sensor at any instant
 * The program on running must ask the name of the file to be read
 
 ## Output
-* The program must output the number of nodes, number of turns and direction bot faces at the end.
+* The program must output the number of nodes it detected after reading the given .txt file
 
 ## Submission Instructions
 * You must create a zip file, which should contain source files, executable program, and screenshot of the output.
@@ -84,7 +59,5 @@ due to "sensor, motion and sharp turn errors"
 sra@sra20:~$ ./assignment
 sra@sra20:~$ enter name of file to be read: data.txt
 sra@sra20:~$ number of nodes: 1
-sra@sra20:~$ number turns: 2
-sra@sra20:~$ final direction: NORTH
 ```
-[Go back](index.md)
+[Go Back](index.md)
