@@ -2,3 +2,7 @@ theme: jekyll-theme-hacker
 
 title: eklavya2020
 description: Summer mentorship program of SRA, VJTI
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables", "fenced_code_blocks"]
