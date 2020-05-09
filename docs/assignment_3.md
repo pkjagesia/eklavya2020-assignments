@@ -29,7 +29,7 @@ refer the datasheet to know what impractical means for this lidar
 * **For Ubuntu**
 `sudo apt-get install gnuplot`
 Running `gnuplot` should result in:  
-```
+~~~
 G N U P L O T
 Version 5.0 patchlevel 3    last modified 2016-02-21 
 
@@ -42,20 +42,20 @@ immediate help:   type "help"  (plot window: hit 'h')
 
  Terminal type set to 'qt'
  gnuplot>
-```
+~~~
 ### Plotting using gnuplot
 * **For Ubuntu**
-```
+~~~
 gnuplot> plot "./distance.txt" using 1:2 with linespoints  
 gnuplot> plot "./signal.txt" using 1:2 with linespoints  
-```
+~~~
 
 ## Submission Instructions
 * You must create a zip file, which should contain source files, executable program, files distance.txt, signal.txt and screenshot of the plots for distance and signal value.
 
 ## Example
-```
+~~~
 sra@sra20:~$ ./assignment
 sra@sra20:~$ enter name of file to be read: data.bin
-```
+~~~
 [Go back](index.md)
