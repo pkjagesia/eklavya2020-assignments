@@ -68,10 +68,10 @@ due to "sensor, motion and sharp turn errors"
 
 ## Input
 * `data.txt` file contains the values obtained by a line sensor. 4 space separated values on each line gives the values of sensor at any instant
-* The program on running must ask the user name of the file to be read
+* The program on running must ask the name of the file to be read
 
 ## Output
-* The program must output the number of nodes, number of turns and direction bot faces at the end, it detected after reading the given .txt file
+* The program must output the number of nodes, number of turns and direction bot faces at the end.
 
 ## Submission Instructions
 * You must create a zip file, which should contain source files, executable program, and screenshot of the output.
@@ -82,5 +82,5 @@ sra@sra20:~$ ./assignment
 sra@sra20:~$ enter name of file to be read: data.txt
 sra@sra20:~$ number of nodes: 1
 sra@sra20:~$ number turns: 2
-sra@sra20:~$ final direction: 0
+sra@sra20:~$ final direction: NORTH
 ```

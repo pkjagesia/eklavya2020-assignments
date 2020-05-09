@@ -18,14 +18,35 @@ refer the datasheet to know what impractical means for this lidar
 
 ## Input
 * `data.bin` file contains a large set of binary stream received from the lidar.
-* The program on running must ask the user name of the file to be read
+* The program on running must ask the name of the file to be read
 
 ## Output
-* The program must output two files `distance.txt` and `signal.txt` which contains distance and signal data on each line. The extracted data can be plotted using gnuplot
+* The program must output two files `distance.txt` and `signal.txt` which contains distance and signal data.
+* Each line in file must be of the form `<reading_number_as_per_data>, <distance or strength_value>`
+* The extracted data can be plotted using gnuplot
+
+### Installing gnuplot
+* For Ubuntu
+    sudo apt-get install gnuplot
+Running `gnuplot` should result in:
+    G N U P L O T
+        Version 5.0 patchlevel 3    last modified 2016-02-21 
+
+        Copyright (C) 1986-1993, 1998, 2004, 2007-2016
+        Thomas Williams, Colin Kelley and many others
+
+        gnuplot home:     http://www.gnuplot.info
+        faq, bugs, etc:   type "help FAQ"
+        immediate help:   type "help"  (plot window: hit 'h')
+
+    Terminal type set to 'qt'
+    gnuplot>
 
 ### Plotting using gnuplot
 
-* Saharash add kar yaha, even installation details for windows and linux, amd how to use
+    gnuplot> plot "./distance.txt" using 1:2 with linespoints  
+
+    gnuplot> plot "./signal.txt" using 1:2 with linespoints  
 
 ## Submission Instructions
 * You must create a zip file, which should contain source files, executable program, files distance.txt, signal.txt and screenshot of the plots for distance and signal value.
@@ -33,8 +54,5 @@ refer the datasheet to know what impractical means for this lidar
 ## Example
 ```
 sra@sra20:~$ ./assignment
-sra@sra20:~$ enter name of file to be read: data.txt
-sra@sra20:~$ number of nodes: 4
-sra@sra20:~$ number turns: 2
-sra@sra20:~$ final direction: 1
+sra@sra20:~$ enter name of file to be read: data.bin
 ```
