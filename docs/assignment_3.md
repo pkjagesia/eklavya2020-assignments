@@ -26,28 +26,27 @@ refer the datasheet to know what impractical means for this lidar
 * The extracted data can be plotted using gnuplot
 
 ### Installing gnuplot
-* For Ubuntu
+* **For Ubuntu**
 ```
 sra@sra20:~$ sudo apt-get install gnuplot  
 ```
 Running `gnuplot` should result in:  
 ```
-     G N U P L O T
-     Version 5.0 patchlevel 3    last modified 2016-02-21 
+G N U P L O T
+Version 5.0 patchlevel 3    last modified 2016-02-21 
 
-     Copyright (C) 1986-1993, 1998, 2004, 2007-2016
-     Thomas Williams, Colin Kelley and many others
+Copyright (C) 1986-1993, 1998, 2004, 2007-2016
+Thomas Williams, Colin Kelley and many others
 
-     gnuplot home:     http://www.gnuplot.info
-     faq, bugs, etc:   type "help FAQ"
-     immediate help:   type "help"  (plot window: hit 'h')
+gnuplot home:     http://www.gnuplot.info
+faq, bugs, etc:   type "help FAQ"
+immediate help:   type "help"  (plot window: hit 'h')
 
  Terminal type set to 'qt'
  gnuplot>
- ```
- 
+ ``` 
 ### Plotting using gnuplot
-* For Ubuntu
+* **For Ubuntu**
 ```
 gnuplot> plot "./distance.txt" using 1:2 with linespoints  
 gnuplot> plot "./signal.txt" using 1:2 with linespoints  
