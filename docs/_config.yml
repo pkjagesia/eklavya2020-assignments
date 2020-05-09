@@ -2,7 +2,3 @@ theme: jekyll-theme-hacker
 
 title: eklavya2020
 description: Summer mentorship program of SRA, VJTI
-
-markdown: kramdown
-kramdown:
-  input: GFM
