@@ -29,7 +29,7 @@ refer the datasheet to know what impractical means for this lidar
 * **For Ubuntu**    
 
 ```
-sudo apt-get install gnuplot`
+sudo apt-get install gnuplot
 ```
 * Running `gnuplot` should result in:   
 
