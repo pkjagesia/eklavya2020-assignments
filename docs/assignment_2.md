@@ -9,10 +9,11 @@ there are turns at 90 degrees that bot has to take
 
 **A turn looks like this**
 ```
-         ______________
-        |   ___________ <---- right turn looks like this
-        |  |
-        |  |
+                       |  |  
+                       |  |
+         ______________|  |
+right-->|   ______________|  <-- left turn
+ turn   |  |
         |  |
     ____|  |____
     ____|  |____ <-- node here
@@ -25,8 +26,8 @@ there are turns at 90 degrees that bot has to take
         |  | bot travels in this direction
         |  |
         |  |
-________|  |
-___________| <----------- left turn looks like this
+        |  |
+
 ```
 **Line sensor placement**
 ```
@@ -77,7 +78,7 @@ due to "sensor, motion and sharp turn errors"
 ```
 sra@sra20:~$ ./assignment
 sra@sra20:~$ enter name of file to be read: data.txt
-sra@sra20:~$ number of nodes: 4
+sra@sra20:~$ number of nodes: 1
 sra@sra20:~$ number turns: 2
-sra@sra20:~$ final direction: 1
+sra@sra20:~$ final direction: 0
 ```
