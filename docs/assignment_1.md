@@ -46,7 +46,7 @@ due to "sensor or motion errors"
 
 ## Input
 * `data.txt` file contains the values obtained by a line sensor. 4 space separated values on each line gives the values of sensor at any instant
-* The program on running must ask the user name of the file to be read
+* The program on running must ask the name of the file to be read
 
 ## Output
 * The program must output the number of nodes it detected after reading the given .txt file
@@ -58,5 +58,5 @@ due to "sensor or motion errors"
 ```
 sra@sra20:~$ ./assignment
 sra@sra20:~$ enter name of file to be read: data.txt
-sra@sra20:~$ number of nodes: 4
+sra@sra20:~$ number of nodes: 1
 ```
