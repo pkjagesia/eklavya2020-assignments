@@ -60,3 +60,4 @@ sra@sra20:~$ ./assignment
 sra@sra20:~$ enter name of file to be read: data.txt
 sra@sra20:~$ number of nodes: 1
 ```
+[Go Back](index.md)
