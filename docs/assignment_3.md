@@ -45,13 +45,11 @@ Running `gnuplot` should result in:
  Terminal type set to 'qt'
  gnuplot>
  ```
-
+ 
 ### Plotting using gnuplot
 * For Ubuntu
 ```
 gnuplot> plot "./distance.txt" using 1:2 with linespoints  
-```
-```
 gnuplot> plot "./signal.txt" using 1:2 with linespoints  
 ```
 
