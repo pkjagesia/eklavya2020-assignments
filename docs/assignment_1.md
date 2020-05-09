@@ -1,4 +1,6 @@
 # Assignment 1
+## Download 
+[Download the data](https://github.com/VedantParanjape/sra-eklavya-assignments/archive/test.tar.gz)
 ## Description
 Given data contains the values obtained by a line sensor.
 4 space separated values on each line gives the values of sensor at any instant
