@@ -64,4 +64,4 @@ gnuplot> plot "./signal.txt" using 1:2 with linespoints
 sra@sra20:~$ ./assignment
 sra@sra20:~$ enter name of file to be read: data.bin
 ```
-[Go back](index.md)
+[Go back](tasks.md)
