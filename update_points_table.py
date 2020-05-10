@@ -1,8 +1,5 @@
 from tabulate import tabulate
 import json
-import rlcompleter
-import readline
-import pprint
 
 def read_points_table():
     with open('docs/_data/scoreboard.json', 'r') as file:
