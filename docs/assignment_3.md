@@ -1,6 +1,6 @@
 # Assignment 3
 ## Download 
-[Download](https://github.com/SRA-VJTI/eklavya2020-assignments/releases/download/eklavya/Assignment_3.zip)
+[Download](https://github.com/VedantParanjape/sra-eklavya-assignments/releases/download/eklavya/Assignment_3.zip)
 ## Description
 You have been given a 1D lidar sensor data.
 Go through its datasheet provided within this folder
@@ -22,9 +22,18 @@ refer the datasheet to know what impractical means for this lidar
 
 ## Output
 * The program must output two files `distance.txt` and `signal.txt` which contains distance and signal data.
-* Each line in file must be of the form `<reading_number_as_per_data>, <distance or strength_value>`
-* The extracted data can be plotted using gnuplot
+* Each line in file must be of the form `<distance or strength_value>`
+* The extracted data can be plotted using gnuplot 
+* Example of data in file: 
 
+ ```
+ 900
+ 900
+ 900
+ 300
+ ...
+ ```
+ 
 ### Installing gnuplot
 * **For Ubuntu**    
 
@@ -52,8 +61,8 @@ gnuplot>
 * **For Ubuntu**
 
 ```bash
-gnuplot> plot "./distance.txt" using 1:2 with linespoints  
-gnuplot> plot "./signal.txt" using 1:2 with linespoints  
+gnuplot> plot "./distance.txt"  
+gnuplot> plot "./signal.txt"
 ```
 
 ## Submission Instructions
