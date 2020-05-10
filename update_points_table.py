@@ -27,6 +27,7 @@ def update_score():
     points_table = read_points_table()
     option = int(input("[?] Enter serial number of team whose marks need to be updated: "))
 
+    print("[!] Team Name: ", points_table[option - 1]["TeamName"])
     ass1 = int(input("[*] Assignment 1 score: "))
     ass2 = int(input("[*] Assignment 2 score: "))
     ass3 = int(input("[*] Assignment 3 score: "))
