@@ -57,7 +57,7 @@ gnuplot> plot "./signal.txt" using 1:2 with linespoints
 ```
 
 ## Submission Instructions
-* You must create a zip file, which should contain source files, executable program, files distance.txt, signal.txt and screenshot of the plots for distance and signal value.
+* You must create a zip file, which should contain source files, files distance.txt, signal.txt and screenshot of the plots for distance and signal value.
 
 ## Example
 ```bash
