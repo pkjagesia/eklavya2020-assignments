@@ -1,6 +1,6 @@
 # Assignment 3
 ## Download 
-[Download](https://github.com/VedantParanjape/sra-eklavya-assignments/releases/download/eklavya/Assignment_3.zip)
+[Download](https://github.com/SRA-VJTI/eklavya2020-assignments/releases/download/eklavya/Assignment_3.zip)
 ## Description
 You have been given a 1D lidar sensor data.
 Go through its datasheet provided within this folder
