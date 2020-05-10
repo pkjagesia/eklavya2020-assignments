@@ -77,7 +77,7 @@ due to "sensor, motion and sharp turn errors"
 * The program must output the number of nodes, number of turns and direction bot faces at the end.
 
 ## Submission Instructions
-* You must create a zip file, which should contain source files, executable program, and screenshot of the output.
+* You must create a zip file, which should contain source files, and screenshot of the output.
 
 ## Example
 ```
