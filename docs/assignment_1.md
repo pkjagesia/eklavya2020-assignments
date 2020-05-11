@@ -1,6 +1,6 @@
 # Task 1
 ## Download 
-[Download](https://github.com/VedantParanjape/sra-eklavya-assignments/releases/download/eklavya/Assignment_1.zip)
+[Download](https://github.com/SRA-VJTI/eklavya2020-assignments/releases/download/eklavya/Assignment_1.zip)
 ## Description
 Given data contains the values obtained by a line sensor.
 4 space separated values on each line gives the values of sensor at any instant
