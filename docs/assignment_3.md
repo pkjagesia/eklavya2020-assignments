@@ -1,4 +1,4 @@
-# Assignment 3
+# Task 3
 ## Download 
 [Download](https://github.com/VedantParanjape/sra-eklavya-assignments/releases/download/eklavya/Assignment_3.zip)
 ## Description
@@ -69,8 +69,10 @@ gnuplot> plot "./signal.txt"
 * You must create a zip file, which should contain source files, files distance.txt, signal.txt and screenshot of the plots for distance and signal value.
 
 ## Example
+
 ```bash
 sra@sra20:~$ ./assignment
-sra@sra20:~$ enter name of file to be read: data.bin
+enter name of file to be read: data.bin
 ```
+
 [Go back](tasks.md)

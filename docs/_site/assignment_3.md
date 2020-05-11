@@ -1,4 +1,4 @@
-# Assignment 3
+# Task 3
 ## Download 
 [Download](https://github.com/VedantParanjape/sra-eklavya-assignments/releases/download/eklavya/Assignment_3.zip)
 ## Description
@@ -22,9 +22,18 @@ refer the datasheet to know what impractical means for this lidar
 
 ## Output
 * The program must output two files `distance.txt` and `signal.txt` which contains distance and signal data.
-* Each line in file must be of the form `<reading_number_as_per_data>, <distance or strength_value>`
-* The extracted data can be plotted using gnuplot
+* Each line in file must be of the form `<distance or strength_value>`
+* The extracted data can be plotted using gnuplot 
+* Example of data in file: 
 
+ ```
+ 900
+ 900
+ 900
+ 300
+ ...
+ ```
+ 
 ### Installing gnuplot
 * **For Ubuntu**    
 
@@ -52,16 +61,18 @@ gnuplot>
 * **For Ubuntu**
 
 ```bash
-gnuplot> plot "./distance.txt" using 1:2 with linespoints  
-gnuplot> plot "./signal.txt" using 1:2 with linespoints  
+gnuplot> plot "./distance.txt"  
+gnuplot> plot "./signal.txt"
 ```
 
 ## Submission Instructions
-* You must create a zip file, which should contain source files, executable program, files distance.txt, signal.txt and screenshot of the plots for distance and signal value.
+* You must create a zip file, which should contain source files, files distance.txt, signal.txt and screenshot of the plots for distance and signal value.
 
 ## Example
+
 ```bash
 sra@sra20:~$ ./assignment
-sra@sra20:~$ enter name of file to be read: data.bin
+enter name of file to be read: data.bin
 ```
+
 [Go back](tasks.md)

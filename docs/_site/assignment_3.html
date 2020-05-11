@@ -4,12 +4,12 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/style.css?v=bace00e88a3e6fc8c85e87e1d0cb3796d38864ac">
+    <link rel="stylesheet" href="/assets/css/style.css?v=9f705ab929d0a589ccdfff3c17657f85dd87c942">
 
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Assignment 3 | eklavya 2020</title>
+<title>Task 3 | eklavya 2020</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Assignment 3" />
+<meta property="og:title" content="Task 3" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Summer mentorship program of SRA, VJTI" />
 <meta property="og:description" content="Summer mentorship program of SRA, VJTI" />
@@ -17,7 +17,7 @@
 <meta property="og:url" content="http://localhost:4000/assignment_3.html" />
 <meta property="og:site_name" content="eklavya 2020" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"http://localhost:4000/assignment_3.html","headline":"Assignment 3","description":"Summer mentorship program of SRA, VJTI","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4000/assignment_3.html","headline":"Task 3","description":"Summer mentorship program of SRA, VJTI","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -38,7 +38,7 @@
 
     <div class="container">
       <section id="main_content">
-        <h1 id="assignment-3">Assignment 3</h1>
+        <h1 id="task-3">Task 3</h1>
 <h2 id="download">Download</h2>
 <p><a href="https://github.com/VedantParanjape/sra-eklavya-assignments/releases/download/eklavya/Assignment_3.zip">Download</a></p>
 <h2 id="description">Description</h2>
@@ -65,9 +65,17 @@ refer the datasheet to know what impractical means for this lidar</p>
 <h2 id="output">Output</h2>
 <ul>
   <li>The program must output two files <code class="language-plaintext highlighter-rouge">distance.txt</code> and <code class="language-plaintext highlighter-rouge">signal.txt</code> which contains distance and signal data.</li>
-  <li>Each line in file must be of the form <code class="language-plaintext highlighter-rouge">&lt;reading_number_as_per_data&gt;, &lt;distance or strength_value&gt;</code></li>
+  <li>Each line in file must be of the form <code class="language-plaintext highlighter-rouge">&lt;distance or strength_value&gt;</code></li>
   <li>The extracted data can be plotted using gnuplot</li>
+  <li>Example of data in file:</li>
 </ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 900
+ 900
+ 900
+ 300
+ ...
+</code></pre></div></div>
 
 <h3 id="installing-gnuplot">Installing gnuplot</h3>
 <ul>
@@ -99,19 +107,21 @@ gnuplot&gt;
   <li><strong>For Ubuntu</strong></li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gnuplot&gt; plot <span class="s2">"./distance.txt"</span> using 1:2 with linespoints  
-gnuplot&gt; plot <span class="s2">"./signal.txt"</span> using 1:2 with linespoints  
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gnuplot&gt; plot <span class="s2">"./distance.txt"</span>  
+gnuplot&gt; plot <span class="s2">"./signal.txt"</span>
 </code></pre></div></div>
 
 <h2 id="submission-instructions">Submission Instructions</h2>
 <ul>
-  <li>You must create a zip file, which should contain source files, executable program, files distance.txt, signal.txt and screenshot of the plots for distance and signal value.</li>
+  <li>You must create a zip file, which should contain source files, files distance.txt, signal.txt and screenshot of the plots for distance and signal value.</li>
 </ul>
 
 <h2 id="example">Example</h2>
+
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sra@sra20:~<span class="nv">$ </span>./assignment
-sra@sra20:~<span class="nv">$ </span>enter name of file to be <span class="nb">read</span>: data.bin
+enter name of file to be <span class="nb">read</span>: data.bin
 </code></pre></div></div>
+
 <p><a href="/tasks.html">Go back</a></p>
 
       </section>

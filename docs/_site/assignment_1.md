@@ -1,4 +1,4 @@
-# Assignment 1
+# Task 1
 ## Download 
 [Download](https://github.com/VedantParanjape/sra-eklavya-assignments/releases/download/eklavya/Assignment_1.zip)
 ## Description
@@ -52,12 +52,15 @@ due to "sensor or motion errors"
 * The program must output the number of nodes it detected after reading the given .txt file
 
 ## Submission Instructions
-* You must create a zip file, which should contain source files, executable program, and screenshot of the output.
+* You must create a zip file, which should contain source files, and screenshot of the output.
 
 ## Example
+
 ```
 sra@sra20:~$ ./assignment
-sra@sra20:~$ enter name of file to be read: data.txt
-sra@sra20:~$ number of nodes: 1
+enter name of file to be read: data.txt
+number of nodes: 1
 ```
+
+* here second line is the input and third line is the required output
 [Go Back](tasks.md)

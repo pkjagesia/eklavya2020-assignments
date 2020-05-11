@@ -1,4 +1,4 @@
-# Assignment 2
+# Task 2
 ## Download 
 [Download](https://github.com/VedantParanjape/sra-eklavya-assignments/releases/download/eklavya/Assignment_2.zip)
 ## Description
@@ -77,14 +77,17 @@ due to "sensor, motion and sharp turn errors"
 * The program must output the number of nodes, number of turns and direction bot faces at the end.
 
 ## Submission Instructions
-* You must create a zip file, which should contain source files, executable program, and screenshot of the output.
+* You must create a zip file, which should contain source files, and screenshot of the output.
 
 ## Example
+
 ```
 sra@sra20:~$ ./assignment
-sra@sra20:~$ enter name of file to be read: data.txt
-sra@sra20:~$ number of nodes: 1
-sra@sra20:~$ number turns: 2
-sra@sra20:~$ final direction: NORTH
+enter name of file to be read: data.txt
+number of nodes: 1
+number turns: 2
+final direction: NORTH
 ```
+
+* here second line is the input and third, fourth, fifth line is the required output
 [Go back](tasks.md)
